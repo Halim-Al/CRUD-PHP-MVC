@@ -1,0 +1,8 @@
+.swal2-cancel {
+    background: rgb(235, 11, 11) !important;
+    margin-right: 18px;
+  }
+
+.swal2-cancel:hover{
+    background: rgb(156, 12, 12) !important;
+}
