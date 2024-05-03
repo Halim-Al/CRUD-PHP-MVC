@@ -96,7 +96,6 @@
     $totalPages = ceil($model['totalItem' ] / $model['limit']);
     $currentPage = isset($_GET['page']) ? $_GET['page'] : 1;
     $query = isset($_GET['query']) ? $_GET['query'] : '';
-    var_dump($query);
     $prevPage = max($currentPage - 1, 1);
     $nextPage = min($currentPage + 1, $totalPages);
 

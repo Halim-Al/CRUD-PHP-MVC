@@ -93,7 +93,7 @@ class PelangganController{
      }
 
      View::render('Navlink/Searchpelanggan', [
-         "title" => "Data Barang",
+         "title" => "Data Pelanggan",
          'pelangganData' => $data,
          'totalItem' => $totalcount,
          'limit' => $limit
